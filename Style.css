@@ -1,0 +1,144 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c74545;
+  padding: 10px 15px;
+}
+
+/* Logo Style */
+.logo img {
+  height: 40px;
+  margin-right: 40px;
+}
+
+/* Menu Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #000000;
+}
+
+.paragraf1 {
+  color: blue;
+}
+.paragraf2 {
+  color: green;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  margin: 0;
+  background-color: #ffffff; /* Warna background gelap */
+}
+
+.teks-animasi {
+  font-family: sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+
+  /* Inisialisasi properti background */
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  /* Membuat animasi */
+  animation: changeBackground 10s infinite alternate; /* Animasi berjalan 10 detik, berulang terus menerus, dan arahnya bergantian */
+}
+
+@keyframes changeBackground {
+  0% {
+    background-image: url("https://photo-cdn2.icons8.com/N8oNnOt0wr0uu123jTJK0YHyVqcrYypFxgF3gla0oB0/rs:fit:1429:1072/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi84MDc5ZjZkNzI1/MDY0YTVjYTZiNzJm/Y2IxMWU5MDQzMy5q/cGc.jpg");
+  }
+  33% {
+    background-image: url("https://photo-cdn2.icons8.com/N8oNnOt0wr0uu123jTJK0YHyVqcrYypFxgF3gla0oB0/rs:fit:1429:1072/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi84MDc5ZjZkNzI1/MDY0YTVjYTZiNzJm/Y2IxMWU5MDQzMy5q/cGc.jpg");
+  }
+  66% {
+    background-image: url("https://photo-cdn2.icons8.com/N8oNnOt0wr0uu123jTJK0YHyVqcrYypFxgF3gla0oB0/rs:fit:1429:1072/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi84MDc5ZjZkNzI1/MDY0YTVjYTZiNzJm/Y2IxMWU5MDQzMy5q/cGc.jpg");
+  }
+  100% {
+    background-image: url("https://photo-cdn2.icons8.com/N8oNnOt0wr0uu123jTJK0YHyVqcrYypFxgF3gla0oB0/rs:fit:1429:1072/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi84MDc5ZjZkNzI1/MDY0YTVjYTZiNzJm/Y2IxMWU5MDQzMy5q/cGc.jpg");
+  }
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.hero-container {
+  /* 1. Mengatur gambar background */
+  background-image: url("FOTBAR.jpg"); /* Ganti dengan URL gambar Anda */
+  background-size: cover; /* Membuat gambar menutupi seluruh area tanpa distorsi */
+  background-position: center; /* Memusatkan gambar */
+  border: 4px solid #c74545;
+  border-radius: 20px;
+  /* 2. Menjaga rasio aspek 16:9 */
+  aspect-ratio: 16 / 9;
+  width: 90%; /* Lebar wadah 100% dari parent-nya (dalam hal ini body) */
+  height: auto;
+  /* 3. Mengatur posisi konten di dalamnya (H dan P) agar di tengah */
+  display: grid;
+  place-items: center;
+  color: white; /* Warna default untuk teks di dalamnya */
+  margin: 100px;
+}
+
+.hero-content {
+  text-align: center; /* Membuat teks di dalamnya (H dan P) rata tengah */
+  padding: 20px; /* Memberi jarak agar teks tidak menempel ke tepi */
+
+  /* Opsional: Memberi latar belakang semi-transparan pada teks agar lebih mudah dibaca */
+  background-color: rgba(0, 0, 0, 0.5); /* Hitam dengan 50% transparansi */
+  border-radius: 10px; /* Memberi sudut yang sedikit melengkung */
+  max-width: 80%; /* Agar kotak konten tidak terlalu lebar di layar besar */
+}
+
+/* Mengatur gaya spesifik untuk Judul (H1) */
+.hero-content h2 {
+  font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* Mengatur gaya spesifik untuk Paragraf (P) */
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.place-items{
+  place-items: center;
+}
+
+td, th {
+  text-align: justify;
+}
