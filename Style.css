@@ -109,8 +109,7 @@ body {
   display: grid;
   place-items: center;
   color: white; /* Warna default untuk teks di dalamnya */
-  margin: 75px 100px 75px 100px;
-  padding: 1px;
+ margin: 0 auto;
   
 }
 
