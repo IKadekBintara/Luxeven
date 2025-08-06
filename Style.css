@@ -20,15 +20,15 @@ p {
 
 /* Logo Style */
 .logo img {
-  height: 40px;
-  margin-right: 40px;
+  height: 50px;
+  margin-right: 50px;
 }
 
 /* Menu Links */
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
 
 .nav-links li a {
@@ -58,7 +58,7 @@ body {
 
 .teks-animasi {
   font-family: sans-serif;
-  font-size: 100px;
+  font-size: 90px;
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
@@ -76,16 +76,16 @@ body {
 
 @keyframes changeBackground {
   0% {
-    background-image: url("https://photo-cdn2.icons8.com/N8oNnOt0wr0uu123jTJK0YHyVqcrYypFxgF3gla0oB0/rs:fit:1429:1072/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi84MDc5ZjZkNzI1/MDY0YTVjYTZiNzJm/Y2IxMWU5MDQzMy5q/cGc.jpg");
+    background-image: url("https://www.color-meanings.com/wp-content/uploads/2023/07/russian-violet-engineering-orange-gradient-color-palette-1024x1024.jpg");
   }
   33% {
-    background-image: url("https://photo-cdn2.icons8.com/N8oNnOt0wr0uu123jTJK0YHyVqcrYypFxgF3gla0oB0/rs:fit:1429:1072/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi84MDc5ZjZkNzI1/MDY0YTVjYTZiNzJm/Y2IxMWU5MDQzMy5q/cGc.jpg");
+    background-image: url("https://www.color-meanings.com/wp-content/uploads/2023/07/russian-violet-engineering-orange-gradient-color-palette-1024x1024.jpg");
   }
   66% {
-    background-image: url("https://photo-cdn2.icons8.com/N8oNnOt0wr0uu123jTJK0YHyVqcrYypFxgF3gla0oB0/rs:fit:1429:1072/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi84MDc5ZjZkNzI1/MDY0YTVjYTZiNzJm/Y2IxMWU5MDQzMy5q/cGc.jpg");
+    background-image: url("https://www.color-meanings.com/wp-content/uploads/2023/07/russian-violet-engineering-orange-gradient-color-palette-1024x1024.jpg");
   }
   100% {
-    background-image: url("https://photo-cdn2.icons8.com/N8oNnOt0wr0uu123jTJK0YHyVqcrYypFxgF3gla0oB0/rs:fit:1429:1072/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi84MDc5ZjZkNzI1/MDY0YTVjYTZiNzJm/Y2IxMWU5MDQzMy5q/cGc.jpg");
+    background-image: url("https://www.color-meanings.com/wp-content/uploads/2023/07/russian-violet-engineering-orange-gradient-color-palette-1024x1024.jpg");
   }
 }
 
@@ -99,17 +99,19 @@ body {
   background-image: url("FOTBAR.jpg"); /* Ganti dengan URL gambar Anda */
   background-size: cover; /* Membuat gambar menutupi seluruh area tanpa distorsi */
   background-position: center; /* Memusatkan gambar */
-  border: 4px solid #c74545;
+  border: 4px solid #000000;
   border-radius: 20px;
   /* 2. Menjaga rasio aspek 16:9 */
   aspect-ratio: 16 / 9;
-  width: 90%; /* Lebar wadah 100% dari parent-nya (dalam hal ini body) */
+  width: 75%; /* Lebar wadah 100% dari parent-nya (dalam hal ini body) */
   height: auto;
   /* 3. Mengatur posisi konten di dalamnya (H dan P) agar di tengah */
   display: grid;
   place-items: center;
   color: white; /* Warna default untuk teks di dalamnya */
-  margin: 100px;
+  margin: 75px 100px 75px 100px;
+  padding: 1px;
+  
 }
 
 .hero-content {
@@ -141,4 +143,5 @@ body {
 
 td, th {
   text-align: center;
+  margin-top: 100px;
 }
