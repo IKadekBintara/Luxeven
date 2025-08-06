@@ -50,7 +50,7 @@ p {
 }
 
 body {
-  display: grid;
+ 
   height: 100vh;
   margin: 0;
   background-color: #ffffff; /* Warna background gelap */
@@ -143,5 +143,9 @@ body {
 
 td, th {
   text-align: center;
-  margin-top: 100px;
+ 
+}
+
+.jadwalpelajaran{
+  place-items: center;
 }
