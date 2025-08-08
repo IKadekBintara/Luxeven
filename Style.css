@@ -156,7 +156,7 @@ td, th {
   }
 
   .hero-content h2 {
-    font-size: 20px;
+    font-size: 10px;
   }
 
   .hero-content p {
@@ -165,6 +165,7 @@ td, th {
 
   .hero-content {
     padding: 10px;
+    max-width: 50%;
   }
 
   .navbar {
