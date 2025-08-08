@@ -153,6 +153,14 @@ td, th {
     justify-content: center;
     gap: 10px;
   }
+  
+  .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c74545;
+  padding: 5px 10px;
+}
 
   .nav-links li a {
     font-size: 14px;
