@@ -147,4 +147,14 @@ td, th {
   place-items: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
 
+  .nav-links li a {
+    font-size: 14px;
+  }
+}
