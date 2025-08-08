@@ -54,6 +54,7 @@ body {
   height: 100vh;
   margin: 0;
   background-color: #ffffff; /* Warna background gelap */
+  font-family: sans-serif;
 }
 
 .teks-animasi {
@@ -62,6 +63,8 @@ body {
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
+  
+  
 
   /* Inisialisasi properti background */
   background-size: cover;
@@ -87,11 +90,6 @@ body {
   100% {
     background-image: url("https://www.color-meanings.com/wp-content/uploads/2023/07/russian-violet-engineering-orange-gradient-color-palette-1024x1024.jpg");
   }
-}
-
-body {
-  margin: 0;
-  font-family: sans-serif;
 }
 
 .hero-container {
@@ -147,4 +145,11 @@ td, th {
 
 .jadwalpelajaran{
   place-items: center;
+}
+
+@media (max-width: 768px) {
+  .teks-animasi {
+    font-size: 36px;
+    padding: 10px;
+  }
 }
