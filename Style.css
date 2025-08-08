@@ -164,8 +164,32 @@ td, th {
     max-width: 90%;
     margin: auto;
   }
-  .teks-animasi{
+  
+  .teks-animasi {
     font-size: 36px !important;
   }
-  
+
+  /* ===== ATURAN BARU UNTUK NAVIGASI DI HP ===== */
+  .navbar {
+    flex-direction: column; /* Mengubah navbar dari horizontal ke vertikal */
+    align-items: center;    /* Memusatkan logo dan menu */
+    padding: 15px;
+  }
+
+  .nav-links {
+    flex-direction: column; /* Membuat daftar link menjadi vertikal */
+    gap: 15px;              /* Mengatur jarak antar link */
+    margin-top: 15px;       /* Memberi jarak antara menu dengan logo */
+    width: 100%;            /* Memastikan menu memenuhi lebar navbar */
+  }
+
+  .nav-links li {
+    text-align: center;     /* Memusatkan teks di setiap item menu */
+    width: 100%;            /* Membuat area klik lebih lebar */
+  }
+
+  /* Opsional: tengahkan logo */
+  .logo img {
+    margin-right: 0;
+  }
 }
