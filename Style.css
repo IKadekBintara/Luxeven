@@ -165,4 +165,11 @@ td, th {
   .nav-links li a {
     font-size: 14px;
   }
+  
+  .hero-content h2 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
 }
