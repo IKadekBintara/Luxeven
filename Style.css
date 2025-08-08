@@ -147,45 +147,21 @@ td, th {
   place-items: center;
 }
 
-/* RESPONSIVE UNTUK LAYAR KECIL (HP) */
-@media (max-width: 768px) {
-  .teks-animasi {
-    font-size: 24px;
-    text-align: center;
-    padding: 10px;
-  }
-
+@media only screen and (max-width: 600px) {
+  /* KHUSUS untuk hero section saja */
   .hero-content h2 {
-    font-size: 10px;
+    font-size: 18px !important;
   }
 
   .hero-content p {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 
   .hero-content {
-    padding: 10px;
-    max-width: 50%;
-  }
-
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .nav-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-  }
-
-  .nav-links li {
-    margin: 5px 0;
-  }
-
-  .logo img {
-    width: 50px; /* kecilin logonya juga biar proporsional */
+    padding: 10px !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border-radius: 10px;
+    max-width: 90%;
+    margin: auto;
   }
 }
