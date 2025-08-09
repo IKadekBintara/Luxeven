@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Jadwal pelajaran</title>
-  <link rel=stylesheet href="Style.css">
-  
-</head>
-<body>
-<nav class="navbar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Halaman ini berisi tentang pembelajaran dasar HTML."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="LUXEVEN.PNG" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Belajar Html</title>
+  </head>
+  <!-- CTRL + / untuk menampilkan seperti ini -->
+  <body>
+    <nav class="navbar"  >
       <div class="logo">
         <img src="LUXEVEN.png" alt="Luxeven Logo" />
       </div>
@@ -17,11 +21,16 @@
         <li><a href="index.html"> Beranda</a></li>
         <li><a href="#P5">Project P5 </a></li>
         <li><a href="jadwalpelajaran.html">Jadwal Pelajaran</a></li>
-        <li><a href="#infotugas">Info Tugas</a></li>
+        <li><a href="login.html">login</a></li>
       </ul>
     </nav>
-    <nav class="jadwalpelajaran">
-<table border="5" cellspacing="" cellpadding="10"> <caption><strong>JADWAL PELAJARAN</strong></caption>
+       
+      <h1 class="pelajaran">JADWAL PELAJARAN</h1>
+   
+  </body>
+    <div class="jadwalpelajaran">
+      <div class="tabble-wrapper">
+<table border="5" cellspacing="0" cellpadding="10"> 
       <tr>
         <th>HARI</th>
         <th>1</th>
@@ -39,69 +48,70 @@
       <tr>
         <td>SENIN</td>
         <td>UPACARA</td>
-        <td colspan="2">FISIKA</td>
+        <td colspan="2" class="fisika">FISIKA</td>
         
-        <td colspan="2">MTK</td>
+        <td colspan="2" class="mtk">MTK</td>
         
-        <td colspan="2">MTL</td>
+        <td colspan="2" class="mtl">MTL</td>
        
-        <td colspan="3">INFORMATIKA</td>
+        <td colspan="3" class="infor">INFORMATIKA</td>
 
       </tr>
 
       <tr>
         <td>SELASA</td>
-        <td colspan="2">BAHASA INDONESIA</td>
+        <td colspan="2" class="bindo">BAHASA INDONESIA</td>
        
-        <td colspan="3">FISIKA</td>
+        <td colspan="3"class="fisika">FISIKA</td>
 
-        <td colspan ="3">BIOLOGI</td>
+        <td colspan ="3" class="bio">BIOLOGI</td>
 
-        <td>PABDP</td>
-        <td>BAHASA JAWA</td>
+        <td class = "pai">PABDP</td>
+        <td class="bjawa">BAHASA JAWA</td>
       </tr>
 
         <tr>
         <td>RABU</td>
-        <td colspan="2">BAHASA INGGRIS</td>
+        <td colspan="2" class="big">BAHASA INGGRIS</td>
 
-        <td colspan="2">PJOK</td>
+        <td colspan="2" class="pjok">PJOK</td>
         
-        <td colspan="2">PPKN</td>
+        <td colspan="2" class="pkn">PPKN</td>
         
-        <td colspan ="2">BIOLOGI</td>
+        <td colspan ="2" class="bio">BIOLOGI</td>
        
-        <td colspan="2">INFORMATIKA</td>
+        <td colspan="2" class="infor">INFORMATIKA</td>
         
       </tr>
 
        <tr>
         <td>KAMIS</td>
-        <td colspan="3">MTL</td>
+        <td colspan="3" class="mtl">MTL</td>
    
-        <td>BAHASA INGGRIS</td>
-        <td colspan="2">BAHASA INDONESIA</td>
+        <td class="big">BAHASA INGGRIS</td>
+        <td colspan="2" class="bindo">BAHASA INDONESIA</td>
      
-        <td colspan="2">MATEMATIKA</td>
+        <td colspan="2" class="mtk">MATEMATIKA</td>
        
-        <td colspan ="2">PKWU</td>
+        <td colspan ="2" class="pkwu">PKWU</td>
        
       </tr>
 
        <tr>
         <td>JUMAT</td>
-        <td>PJOK</td>
-        <td colspan="2">SEJARAH</td>
+        <td class="pjok">PJOK</td>
+        <td colspan="2" class="sejarah">SEJARAH</td>
         
-        <td colspan="2">PABDP</td>
+        <td colspan="2" class="pai">PABDP</td>
         
-        <td colspan="2">SENI BUDAYA</td>
+        <td colspan="2" class="senbud">SENI BUDAYA</td>
         
         <td></td>
         <td></td>
         <td></td>
       </tr>
     </table>
-    </nav>
+    </div>
+    </div>
 </body>
 </html>
