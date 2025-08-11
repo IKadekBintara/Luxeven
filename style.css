@@ -86,34 +86,6 @@ header p {
 
 
 /* =========================
-   TEKS ANIMASI
-========================= */
-/* Judul besar dengan efek background gambar yang bergerak */
-
-
-.jadwal {
-  font-family: sans-serif;
-  font-size: 45px;
-  font-weight: 900;
-  text-transform: uppercase;
-  text-align: center;
-  background-size: cover;
-  background-position: center;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent; /* Teks transparan, biar kelihatan gambar di belakangnya */
-  animation: changeBackground 10s infinite alternate;
-  padding-top: 150px;
-}
-
-
-
-
-
-
-
-
-/* =========================
    TABEL JADWAL PELAJARAN
 ========================= */
 /* Mengatur tabel */
@@ -276,6 +248,9 @@ td.sejarah{
   transform: scale(1.2);
 }
 
+td.jam-pelajaran{
+font-size: 13px;
+}
 
 
 /* =========================
@@ -357,7 +332,7 @@ header p {
    .about-text {
     max-width: 90%;
   }
-}
+
 
   /* Jadwal pelajaran di HP bisa di scroll horizontal */
   .pelajaran{
