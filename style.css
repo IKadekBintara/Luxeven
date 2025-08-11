@@ -349,7 +349,16 @@ header p {
     margin: 0 0 10px;
   }
 
-  
+   .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+   .about-text {
+    max-width: 90%;
+  }
+}
+
   /* Jadwal pelajaran di HP bisa di scroll horizontal */
   .pelajaran{
    background-color: #2c3e50;
